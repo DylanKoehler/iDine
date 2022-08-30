@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97DA774728BE54240021CADF /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 97DA774628BE54240021CADF /* menu.json */; };
 		97E22B8E28BD2B7800074071 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E22B8D28BD2B7800074071 /* iDineApp.swift */; };
 		97E22B9028BD2B7800074071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E22B8F28BD2B7800074071 /* ContentView.swift */; };
 		97E22B9228BD2B7900074071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E22B9128BD2B7900074071 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97DA774628BE54240021CADF /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
 		97E22B8A28BD2B7800074071 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E22B8D28BD2B7800074071 /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		97E22B8F28BD2B7800074071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				97E22BBD28BD2DBC00074071 /* Helper.swift */,
 				97E22BBB28BD2D1D00074071 /* Menu.swift */,
 				97E22BB928BD2D0300074071 /* Order.swift */,
+				97DA774628BE54240021CADF /* menu.json */,
 				97E22B9128BD2B7900074071 /* Assets.xcassets */,
 				97E22B9328BD2B7900074071 /* Preview Content */,
 			);
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97DA774728BE54240021CADF /* menu.json in Resources */,
 				97E22B9528BD2B7900074071 /* Preview Assets.xcassets in Resources */,
 				97E22B9228BD2B7900074071 /* Assets.xcassets in Resources */,
 			);
