@@ -16,16 +16,14 @@ struct ItemDetail: View {
                 Image(item.mainImage)
                     .resizable()
                     .scaledToFit()
-                    .padding(4)
-                    .background(.black)
-                    .font(.caption)
-                    .foregroundColor(.white)
-                    .offset(x: -5, y: -5)
+                
                 Text("Photo: \(item.photoCredit)")
                     .padding(4)
                     .background(.black)
                     .font(.caption)
                     .foregroundColor(.white)
+                    .offset(x: -5, y: -5)
+            }
                 Text(item.description)
                     .padding()
                 Spacer()
@@ -34,7 +32,7 @@ struct ItemDetail: View {
             .navigationBarTitleDisplayMode(.inline)
         }
     }
-}
+
 struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
