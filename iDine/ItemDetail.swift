@@ -12,7 +12,7 @@ struct ItemDetail: View {
     
     var body: some View {
         VStack {
-            ZStack(alignment: .bottomLeading) {
+            ZStack(alignment: .bottomTrailing) {
                 Image(item.mainImage)
                     .resizable()
                     .scaledToFit()
