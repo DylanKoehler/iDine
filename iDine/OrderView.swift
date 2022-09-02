@@ -27,8 +27,8 @@ struct OrderView: View {
                     }
                 }
             }
-            navigationTitle("Order")
-                .listStyle(.insetGrouped)
+            .navigationTitle("Order")
+            .listStyle(.insetGrouped)
         }
     }
 }
