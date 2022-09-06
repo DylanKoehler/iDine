@@ -20,6 +20,7 @@ struct CheckoutView: View {
                         Text($0)
                     }
                 }
+                .pickerStyle(.wheel)
             }
         }
         .navigationTitle("Payment")
